@@ -21,6 +21,7 @@ namespace StringEquality
             Console.WriteLine(second == first);//test that the two objects are the same
             Console.WriteLine(first.Equals(second, StringComparison.OrdinalIgnoreCase));//test that object VALUES are the same
             Console.WriteLine(second.Equals(first, StringComparison.OrdinalIgnoreCase));//test that object VALUES are the same
+
         }
     }
 }
